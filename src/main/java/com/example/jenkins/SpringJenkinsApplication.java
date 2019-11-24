@@ -13,7 +13,7 @@ public class SpringJenkinsApplication {
 	public static Logger logger = LoggerFactory.getLogger(SpringJenkinsApplication.class);
 	
 	@PostConstruct
-	public void init() {
+	public  init() {
 		logger.info("Build Pipeline Start");
 		logger.info("***************");
 		logger.info("Build Pipeline End");
